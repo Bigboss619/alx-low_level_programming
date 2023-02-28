@@ -2,18 +2,17 @@
 #include <stdio.h>
 
 /**
- * main - check the code
+ * main - check the code 
  *
  * Return: Always 0.
  */
 int main(void)
 {
-    char *str;
-    int len;
+    int n;
 
-    str = "My first strlen!";
-    len = _strlen(str);
-    printf("%d\n", len);
+    n = 402;
+    printf("n=%d\n", n);
+    reset_to_98(&n);
+    printf("n=%d\n", n);
     return (0);
 }
-
