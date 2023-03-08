@@ -1,4 +1,3 @@
-julien@ubuntu:~/0x08. Recursion$ cat 6-main.c
 #include "main.h"
 #include <stdio.h>
 
